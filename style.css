@@ -1,0 +1,123 @@
+body {
+  background-color: #141717;
+  /* min-height: re; */
+}
+
+.backimg {
+  background: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  min-height: 95vh;
+  padding-top: 5rem;
+  position: relative;
+}
+
+section {
+  /* margin-top: 10rem; */
+  padding-top: 5rem;
+}
+
+.navbar a {
+  margin-left: 30px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.text-overlay {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  color: #ffffff;
+}
+
+/* about */
+
+#about h2 {
+  margin-bottom: 5rem;
+}
+
+/* menu */
+#Menu h2 {
+  margin-bottom: 5rem;
+}
+
+/* contac */
+#contact a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* footer */
+footer p {
+  font-size: 15px;
+}
+
+footer a {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .backimg {
+    min-height: 40vh;
+  }
+
+  .text-overlay {
+    height: 80%;
+  }
+
+  /* home */
+  #home h1 {
+    font-size: calc(1.2rem + 1vw);
+  }
+  #home p {
+    font-size: calc(0.5rem + 1.3vw);
+  }
+
+  /* about */
+  #about h2 {
+    font-size: calc(1.2rem + 1vh);
+    margin-bottom: 1rem;
+  }
+  #about h4 {
+    font-size: calc(0.5rem + 0.5vh);
+  }
+
+  /* Menu */
+  #Menu h2 {
+    font-size: calc(1.2rem + 1vh);
+    margin-bottom: 1rem;
+  }
+
+  #Menu h3 {
+    font-size: calc(0.4rem + 0.3vh);
+  }
+
+  #Menu p {
+    font-size: calc(0.3rem + 0.3vh);
+  }
+
+  #Menu .card img {
+    width: 20;
+    height: 20;
+  }
+
+  /* Kontak */
+  #contact h3 {
+    font-size: calc(1.2rem + 1vh);
+  }
+
+  #contact h5 {
+    font-size: calc(0.5rem + 0.5vh);
+  }
+
+  #contact a {
+    font-size: 10px;
+  }
+}
